@@ -1,0 +1,5 @@
+*.env
+/hltv_kicker_4/.vscode
+/hltv_kicker_4/bin
+/hltv_kicker_4/lib
+/hltv_kicker_4/build-jar
