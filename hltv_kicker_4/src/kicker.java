@@ -115,7 +115,7 @@ public class kicker	{
 	//#endregion
 
 	public static void main(String args[]){
-		Dotenv dotenv = Dotenv.load();
+		Dotenv dotenv = Dotenv.configure().ignoreIfMalformed().ignoreIfMissing().load();
 
 		//#region New York
 		KTP_NY1             = dotenv.get("KTP_NY1");
